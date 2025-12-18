@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <title>練習</title>
+    <style>
+        input {
+            border: 3px solid gray;
+        }
+
+        .for-border:focus {
+            border: 5px solid olivedrab;
+            outline: none;
+        }
+
+        .for-outline:focus {
+            outline: 5px solid rgb(218, 237, 182);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h3>border 會影響版面</h3>
+        <p>如果:focus時，加寬border。</p>
+        <input type="text" class="for-border">
+        <p>我是文字</p>
+    </div>
+
+    <hr>
+
+    <div>
+        <h3>outline 不會影響版面</h3>
+        <p>如果:focus時，使用outline。</p>
+        <input type="text" class="for-outline">
+        <p>我是文字</p>
+    </div>
+</body>
+
+</html>
