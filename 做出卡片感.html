@@ -1,0 +1,50 @@
+<!-- 做出卡片感 -->
+<!DOCTYPE html>
+<html lang="la">
+
+<head>
+    <meta charset="UTF-8">
+    <title>練習</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 13px;
+        }
+
+        .card {
+            width: 180px;
+            height: 200px;
+            box-sizing: border-box;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.25s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.04);
+            box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-1 {
+            background-color: rgb(182, 130, 232);
+        }
+
+        .card-2 {
+            background-color: rgb(205, 169, 238);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card card-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam culpa et
+            fugiat
+            exercitationem harum magnam officia repellendus, maxime quisquam!</div>
+        <div class="card card-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut accusamus nostrum quas
+            veritatis
+            sunt, soluta id commodi nihil et architecto.</div>
+    </div>
+
+</body>
+
+</html>
