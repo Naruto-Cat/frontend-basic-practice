@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <title>練習</title>
+    <style>
+        div {
+            width: 300px;
+            height: 100px;
+            border: 2px solid rgb(78, 142, 124);
+            box-sizing: border-box;
+            padding: 15px;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .delete-btn {
+            border: 1px solid rgb(188, 188, 188);
+            border-radius: 5px;
+            background-color: #fff;
+
+
+            position: absolute;
+            right: 12px;
+            top: 12px;
+            opacity: 0;
+            transition: opacity 0.25s;
+        }
+
+        div:hover .delete-btn {
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        .delete-btn:hover {
+            color: #fff;
+            background-color: rgb(86, 156, 136);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button class="delete-btn">刪除</button>
+        <p>留言內容...</p>
+    </div>
+</body>
+
+</html>
