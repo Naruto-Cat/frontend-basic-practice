@@ -24,3 +24,21 @@
 
 - `border 純變色.html`：html + css
 - `border、outline 對比.html`：html + css
+
+---
+
+#### 點飲料/
+
+- `製作點單.vue`：請全寫在 `App.vue`，使用 create-vue 建專案，用 Vue 3 + Composition API 寫的。
+
+
+
+
+
+
+
+
+
+
+
+
